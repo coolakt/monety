@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'domain/constants/app_routes.dart';
-import 'local/helpers/db_helper.dart';
-import 'local/models/user_model.dart';
+import '../../domain/constants/app_routes.dart';
+import '../../data/local/helpers/db_helper.dart';
+import '../../data/local/models/user_model.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});

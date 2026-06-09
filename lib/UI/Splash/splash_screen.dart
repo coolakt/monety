@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:monety/data/domain/constants/app_constants.dart';
-import 'package:monety/data/domain/constants/app_routes.dart';
 import 'package:monety/data/local/helpers/db_helper.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../../domain/constants/app_constants.dart';
+import '../../domain/constants/app_routes.dart';
 
 
 class SplashScreen extends StatefulWidget {

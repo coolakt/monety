@@ -1,11 +1,12 @@
 import 'dart:io';
 
-import 'package:monety/data/domain/constants/app_constants.dart';
 import 'package:monety/data/local/models/user_model.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sqflite/sqflite.dart';
+
+import '../../../domain/constants/app_constants.dart';
 
 
 class DbHelper {

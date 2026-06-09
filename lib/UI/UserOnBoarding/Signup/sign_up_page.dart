@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:monety/data/domain/ui_helper/input_feild_decoration.dart';
 import 'package:monety/data/local/models/user_model.dart';
 import 'package:monety/UI/Dashboard/home_page.dart';
 import 'package:monety/UI/UserOnBoarding/login/login_page.dart';
 
-import '../../../data/domain/constants/app_routes.dart';
+import '../../../domain/constants/app_routes.dart';
+import '../../../domain/ui_helper/input_feild_decoration.dart';
 import '../bloc/user/user_bloc.dart';
 import '../bloc/user/user_event.dart';
 import '../bloc/user/user_state.dart';

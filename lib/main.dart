@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:monety/data/domain/constants/app_routes.dart';
 import 'package:monety/data/local/helpers/db_helper.dart';
 import 'package:monety/UI/Splash/splash_screen.dart';
 import 'package:path/path.dart';
 
 import 'UI/UserOnBoarding/bloc/user/user_bloc.dart';
+import 'domain/constants/app_routes.dart';
 
 void main() {
   runApp(

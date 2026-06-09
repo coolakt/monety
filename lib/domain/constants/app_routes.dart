@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:monety/data/profile_page.dart';
+import 'package:monety/UI/Dashboard/profile_page.dart';
 import 'package:monety/UI/Splash/splash_screen.dart';
 import 'package:path/path.dart';
 

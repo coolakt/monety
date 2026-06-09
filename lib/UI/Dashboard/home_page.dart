@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:monety/data/domain/constants/app_routes.dart';
+
+import '../../domain/constants/app_routes.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
